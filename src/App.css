@@ -88,9 +88,13 @@ menu{
     border-color: transparent;
     margin: 0px 8px 15px 8px;
   }
-  button:hover{
+
+  
+  button:hover {
     cursor: pointer;
-    
+    top:-130%;
+    visibility:visible;
+    opacity: 1;
   }
 }
 
@@ -120,5 +124,6 @@ border: 20px;
 }
 
 #examples menu button.tapped{
-  background-color: aqua;
+  background-color: transparent;
 }
+
